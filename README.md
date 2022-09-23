@@ -90,6 +90,6 @@ Tang et al. "Multi-modal Segment Assemblage Network for Ad Video Editing with Im
 
 ### Acknowledgement
 
-We thank Tencent Inc. and Southern University of Science and Technology (SUSTech) for support to the project.
+We thank Southern University of Science and Technology and Tencent for support to the project. This work is supported by the National Natural Science Foundation of China under Grant No. 61972188 and 62122035.
 
 ### License
