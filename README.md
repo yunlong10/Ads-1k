@@ -20,7 +20,11 @@ Besides, the number of annotated segment pairs and the proportion are counted. T
 #### Imp@T
 
 $$
-Imp@T=\frac{1}{|A|}\sum_{a_i\in A}imp(a_i)\cdot\mathbb{I}[c_1\cdot T\leq\tau(A)\leq c_2\cdot T]~,\\
+Imp@T=\frac{1}{|A|}\sum_{a_i\in A}imp(a_i)\cdot\mathbb{I}[c_1\cdot T\leq\tau(A)\leq c_2\cdot T]~,
+$$
+
+$$
+\\
 imp(a_i)=\frac{1}{|L_{a_i}|}\sum_{\ell\in L_{a_i}}w_{l}\cdot \ell~,
 $$
 
