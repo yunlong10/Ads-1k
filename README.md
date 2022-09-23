@@ -1,7 +1,7 @@
 ## Ads-1k: Dataset for Ad Video Editing 
 ### Dataset Overview
 
-To obtain better training and evaluation, we collect 1000+ ad videos from the advertisers to form the Ads-1k dataset. There are 942 ad videos for training and 99 for evaluation in total. However, the annotation methods of the training set and test set are somehow different. Instead of preparing the ground-truth for each data, we annotate each video with multi-labels shown in the supplementary.
+To train and evaluate the models for ad video editing task, we collect 1000+ ad videos from the advertisers to form the Ads-1k dataset. There are 942 ad videos for training and 99 for evaluation in total. However, the annotation methods of the training set and test set are somehow different. Instead of preparing the ground-truth for each data, we annotate each video with multi-labels shown in the supplementary.
 
 Dataset statistics. $N_{seg}$ and $N_{label}$ are respectively the average number of segments and labels of each video. $D_{seg}$ and $D_{video}$ are the average duration of a segment and a video, respectively.
 
