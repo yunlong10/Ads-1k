@@ -1,5 +1,5 @@
 ## Ads-1k: Dataset for Ad Video Editing 
-### Dataset overview
+### Dataset Overview
 
 To obtain better training and evaluation, we collect 1000+ ad videos from the advertisers to form the Ads-1k dataset. There are 942 ad videos for training and 99 for evaluation in total. However, the annotation methods of the training set and test set are somehow different. Instead of preparing the ground-truth for each data, we annotate each video with multi-labels shown in the supplementary.
 
@@ -46,8 +46,8 @@ The score reflects the ability of trade-off among importance, coherence and tota
 
 We have the following dataset files under the `data` directory:
 
-- `coh_anno_test.json`: 
-- `data_info.json`: 
+- `coh_anno_test.json`: The annotation file of coherence for 99 data in test set.
+- `data_info.json`: The information ad videos data
 - `seg_labels_test.json`: 
 - `test_info.json`: 
 
@@ -60,14 +60,25 @@ We also have the following pre-extracted segment-level features of training data
 - `bert_feats_train.pkl`:  The features of text contents (subtitles) extracted by BERT from videos for training.
 - `swin_feats_train.pkl`:  The features of visual infomation  (frames) extracted by Swin-Transformer (Large) from videos for training.
 - `vggish_feats_train.pkl`: The features of audios extracted by Vggish from videos for training.
+- `ppl_maps.pkl`: The PPL map of training data.
 
 ### Evaluation
 
 Under the `scripts` directory, we include:
 
 - `eval.py`:
+
 - `load_ads1k.py`:
-- `test.py`:
+
+- `test.py`: run this file to evaluate your results. Replace this nparray`your_result` in line 5 by your output:
+
+  ``` python
+  ...
+  infer = Eval()
+  your_results = ... # replace by your results
+  given_times = [10,15]
+  ...
+  ```
 
 ### Additional Resource
 

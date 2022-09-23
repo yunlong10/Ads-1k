@@ -11,7 +11,7 @@ def main():
         " Coh@Time ", " Time Score ", " Imp-Coh@Time "))
     print('--------------------------------------------------------------------------------------------')
     for i in given_times:
-        lo, hi = int(i*0.8), int(i*1.2)
+        lo, hi = int(i * 0.8), int(i * 1.2)
         infer.infer(results=your_results, given_time=(lo, hi))
 
 if __name__ == '__main__':
