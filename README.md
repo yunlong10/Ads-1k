@@ -53,7 +53,7 @@ We have the following dataset files under the `data` directory:
 - `coh_anno_test.json`: The annotation file of coherence for 99 data in test set.
 - `data_info.json`: The information of 942 ad videos data for training.
 - `seg_labels_test.json`: The segments with narrative techniques labels of each video in test set.
-- `test_info.json`: The information of 99 ad videos data for testing
+- `test_info.json`: The duration information of 99 ad videos data for testing
 
 - `bert_feats_test.pkl`:  The features of text contents (subtitles) extracted by BERT.
 - `swin_feats_test.pkl`:  The features of visual infomation  (frames) extracted by Swin-Transformer (Large) from videos for test.
@@ -64,7 +64,7 @@ We also have the following pre-extracted segment-level features of training data
 - `bert_feats_train.pkl`:  The features of text contents (subtitles) extracted by BERT from videos for training.
 - `swin_feats_train.pkl`:  The features of visual infomation  (frames) extracted by Swin-Transformer (Large) from videos for training.
 - `vggish_feats_train.pkl`: The features of audios extracted by Vggish from videos for training.
-- `ppl_maps.pkl`: The PPL map of training data.
+- `ppl_maps.pkl`: The PPL maps of training data.
 
 ### Evaluation
 
@@ -74,7 +74,7 @@ Under the `scripts` directory, we include:
 
 - `load_ads1k.py`: The data loader for Ads-1k dataset.
 
-- `test.py`: run this file to evaluate your results. Replace this nparray`your_result` in line 5 by your output:
+- `test.py`: run this file to evaluate your results. Replace the nparray`your_results` in line 5 by your output:
 
   ``` python
   ...
@@ -90,6 +90,6 @@ Tang et al. "Multi-modal Segment Assemblage Network for Ad Video Editing with Im
 
 ### Acknowledgement
 
-We thank Tencent Inc. and SUSTech for support to the project.
+We thank Tencent Inc. and Southern University of Science and Technology (SUSTech) for support to the project.
 
 ### License
