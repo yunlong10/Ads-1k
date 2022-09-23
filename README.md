@@ -55,7 +55,7 @@ We have the following dataset files under the `data` directory:
 - `swin_feats_test.pkl`:  The features of visual infomation  (frames) extracted by Swin-Transformer (Large) from videos for test.
 - `vggish_feats_test.pkl`: The features of audios extracted by Vggish from videos for test.
 
-We also have the following pre-extracted segment-level features of training data, which can be downloaded from [[Google Drive]()] or [[百度网盘](https://pan.baidu.com/s/1n5oLiFerLE-DbK-H4__T1Q?pwd=8gjb )(提取码：8gjb)]:
+We also have the following pre-extracted segment-level features of training data, which can be downloaded from [[Google Drive](https://drive.google.com/file/d/1LTOCoQ_bg4hrq7IxHUvgyi-xb05e1uuR/view?usp=sharing)] or [[百度网盘](https://pan.baidu.com/s/1n5oLiFerLE-DbK-H4__T1Q?pwd=8gjb )(提取码：8gjb)]:
 
 - `bert_feats_train.pkl`:  The features of text contents (subtitles) extracted by BERT from videos for training.
 - `swin_feats_train.pkl`:  The features of visual infomation  (frames) extracted by Swin-Transformer (Large) from videos for training.
