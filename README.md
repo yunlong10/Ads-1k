@@ -47,15 +47,15 @@ The score reflects the ability of trade-off among importance, coherence and tota
 We have the following dataset files under the `data` directory:
 
 - `coh_anno_test.json`: The annotation file of coherence for 99 data in test set.
-- `data_info.json`: The information ad videos data
-- `seg_labels_test.json`: 
-- `test_info.json`: 
+- `data_info.json`: The information of 942 ad videos data for training.
+- `seg_labels_test.json`: The segments with narrative techniques labels of each video in test set.
+- `test_info.json`: The information of 99 ad videos data for testing
 
 - `bert_feats_test.pkl`:  The features of text contents (subtitles) extracted by BERT.
 - `swin_feats_test.pkl`:  The features of visual infomation  (frames) extracted by Swin-Transformer (Large) from videos for test.
 - `vggish_feats_test.pkl`: The features of audios extracted by Vggish from videos for test.
 
-We also have the following pre-extracted segment-level features of training data, which can be downloaded from [[Google Drive]()] or [[百度网盘]()]:
+We also have the following pre-extracted segment-level features of training data, which can be downloaded from [[Google Drive]()] or [[百度网盘](https://pan.baidu.com/s/1n5oLiFerLE-DbK-H4__T1Q?pwd=8gjb )(提取码：8gjb)]:
 
 - `bert_feats_train.pkl`:  The features of text contents (subtitles) extracted by BERT from videos for training.
 - `swin_feats_train.pkl`:  The features of visual infomation  (frames) extracted by Swin-Transformer (Large) from videos for training.
@@ -66,9 +66,9 @@ We also have the following pre-extracted segment-level features of training data
 
 Under the `scripts` directory, we include:
 
-- `eval.py`:
+- `eval.py`: The evaluation script. Run `test.py` to use it.
 
-- `load_ads1k.py`:
+- `load_ads1k.py`: The data loader for Ads-1k dataset.
 
 - `test.py`: run this file to evaluate your results. Replace this nparray`your_result` in line 5 by your output:
 
