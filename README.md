@@ -1,4 +1,6 @@
 ## Ads-1k: Dataset for Ad Video Editing 
+Official dataset for "Multi-modal Segment Assemblage Network for Ad Video Editing with Importance-Coherence Reward" (ACCV 2022)
+
 ### Dataset Overview
 
 To train and evaluate the models for ad video editing task, we collect 1000+ ad videos from the advertisers to form the Ads-1k dataset. There are 942 ad videos for training and 99 for evaluation in total. However, the annotation methods of the training set and test set are somehow different. Instead of preparing the ground-truth for each data, we annotate each video with multi-labels shown in the supplementary.
@@ -84,12 +86,7 @@ Under the `scripts` directory, we include:
   ...
   ```
 
-### Additional Resource
-
-Tang et al. "Multi-modal Segment Assemblage Network for Ad Video Editing with Importance-Coherence Reward"
-
 ### Acknowledgement
 
 We thank Southern University of Science and Technology and Tencent for support to the project. This work is supported by the National Natural Science Foundation of China under Grant No. 61972188 and 62122035.
 
-### License
