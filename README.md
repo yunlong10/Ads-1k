@@ -89,3 +89,18 @@ Under the `scripts` directory, we include:
 
 We thank Southern University of Science and Technology and Tencent for support to the project. This work is supported by the National Natural Science Foundation of China under Grant No. 61972188 and 62122035.
 
+### Cite
+
+If our work can help you, please feel free to cite it.
+
+```
+@InProceedings{Tang_2022_ACCV,
+    author    = {Tang, Yunlong and Xu, Siting and Wang, Teng and Lin, Qin and Lu, Qinglin and Zheng, Feng},
+    title     = {Multi-modal Segment Assemblage Network for Ad Video Editing with Importance-Coherence Reward},
+    booktitle = {Proceedings of the Asian Conference on Computer Vision (ACCV)},
+    month     = {December},
+    year      = {2022},
+    pages     = {3519-3535}
+}
+
+```
