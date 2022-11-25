@@ -89,7 +89,7 @@ Under the `scripts` directory, we include:
 
 We thank Southern University of Science and Technology and Tencent for support to the project. This work is supported by the National Natural Science Foundation of China under Grant No. 61972188 and 62122035.
 
-### Cite
+### Citation
 
 If our work can help you, please feel free to cite it.
 
@@ -102,5 +102,4 @@ If our work can help you, please feel free to cite it.
     year      = {2022},
     pages     = {3519-3535}
 }
-
 ```
