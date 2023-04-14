@@ -34,17 +34,21 @@ where A is the set of selected segments, $L_{a_i}$ stands for the total number o
 #### Coh@T
 
 The coherence score given the target duration $T$ is defined as follows:
+
 $$
 Coh@T=\frac{1}{|A|-1}{\sum_{a_i\prec a_j}coh{(a_{i},a_{j})}}\cdot\mathbb{I}[c_1\cdot T\leq\tau(A)\leq c_2\cdot T]~,
 $$
+
 where the $coh{(a_{i},a_{j})}$ is the coherence small score between the text of segment $i$ and the text of segment $j$. With the annotation for coherence on test set, we can score the results produced by our models. When scoring, for each combination of consecutive two segments $i$ and $j$ in output, if it is in the *coherent* set, the $coh{(a_{i},a_{j})}$ will be 1. If it is in the *incoherent* set, the $coh{(a_{i},a_{j})}$ will be 0. Otherwise, it is in the *uncertain* set, the $coh{(a_{i},a_{j})}$ will be 0.5.
 
 #### Imp-Coh@T
 
 The overall score is defined as follows:
+
 $$
 ImpCoh@T=\frac{Imp@T}{|A|-1}\cdot{\sum_{a_i\prec a_j}coh{(a_{i},a_{j})}}.
 $$
+
 The score reflects the ability of trade-off among importance, coherence and total duration.
 
 ### Data
